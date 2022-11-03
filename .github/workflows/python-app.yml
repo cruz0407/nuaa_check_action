@@ -4,6 +4,7 @@ on:
   push:
   schedule:
   # 16+8=24
+  #修改为早上6.30打卡
   - cron: '30 22 * * *' 
 
 jobs:
